@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>GITAM NCC Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h1> <span style="font-family:Palatino Linotype;">GIT</span><span style="font-family: Segoe Print;">A</span><span style="font-family: Segoe Fluent Icons;">M NCC</span></h1>
+            <form id="loginForm">
+                <label for="regt-no">Regimental Number</label>
+                <input type="text" id="regt-no" name="regt-no" placeholder="Regt No" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+
+                <button type="submit" class="login-btn">Login</button>
+                <button type="button" class="reset-btn">Reset Password</button>
+                <p id="error-message" style="color: red; display: none;">Invalid Regimental Number or Password!</p>
+            </form>
+            <p>Don't have an account? <a href="new_registration.html" class="register-link">Register here</a></p>
+            <p>Student?<a href="user_dashboard.html">Login</a></p>
+            <p>Admin?<a href="admin_dashboard.html">Click here</a></p>
+        </div>
+    </div>
+</body>
+</html>
